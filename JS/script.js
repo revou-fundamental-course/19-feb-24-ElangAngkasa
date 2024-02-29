@@ -1,0 +1,1 @@
+prompt("Namamu siapa bang?")
