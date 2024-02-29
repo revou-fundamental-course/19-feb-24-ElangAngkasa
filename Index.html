@@ -42,14 +42,18 @@
             <label for="name-sender">Nama</label>
             <input required type="text" placeholder="Your Name" id="name-sender" name="name-sender">
 
-            <label for="ttl">Tanggal Lahir</label>
-            <input type="number" id="ttl" name="ttl">
+            <label for="ttl-sender">Tanggal Lahir</label>
+            <input required type="date" id="ttl" name="ttl">
             
-            <label for="gender">Jenis Kelamin</label>
-            <select id="gender">
+            <label for="gender-sender">Jenis Kelamin</label>
+            <select required id="gender-sender">
                 <option value="male">Pria</option>
                 <option value="female">Wanita</option>
             </select>
+            
+            <label for="massage-sender">Pesan</label>
+            <input type="text">
+
             <button id="button-submit">Submit</button>
         </form>
         <div class="output"> <!-- Menambahkan Output-->

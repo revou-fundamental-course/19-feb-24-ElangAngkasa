@@ -55,5 +55,7 @@ header{
 }
 
 .output{
-    border: 2px solid black;
+    display: flex;
+    width: 400px;
+    border: 1px solid black;
 }
